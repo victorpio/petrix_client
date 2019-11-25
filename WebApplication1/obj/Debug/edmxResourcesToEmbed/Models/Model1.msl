@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="petrix_dbModelStoreContainer" CdmEntityContainer="petrix_dbEntities">
+    <EntitySetMapping Name="Animal">
+      <EntityTypeMapping TypeName="petrix_dbModel.Animal">
+        <MappingFragment StoreEntitySet="Animal">
+          <ScalarProperty Name="id_animal" ColumnName="id_animal" />
+          <ScalarProperty Name="ds_animal" ColumnName="ds_animal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
