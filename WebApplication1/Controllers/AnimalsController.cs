@@ -78,7 +78,7 @@ namespace WebApplication1.Controllers
         // obter mais detalhes, consulte https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "id_animal,ds_animal")] Animal animal)
+        public ActionResult Edit([Bind(Include = "id_animal ,ds_animal")] Animal animal)
         {
             if (ModelState.IsValid)
             {
